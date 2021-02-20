@@ -1,0 +1,41 @@
+
+.top1 {
+	background: rgba(250, 167, 0, 0.24);
+	font-size: 24rpx;
+	color: #fa6400;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 20rpx;
+}
+.top1 image {
+	width: 26rpx;
+	margin-right: 10rpx;
+}
+.top2 {
+	padding-top: 14rpx;
+}
+.top2 > view {
+	text-align: center;
+	margin-top: 40rpx;
+}
+.top2 > view image {
+	width: 496rpx;
+}
+.btn {
+	margin: 50rpx 24rpx 132rpx;
+	font-size: 24rpx;
+	padding: 24rpx 0;
+	background: #fec200;
+	-webkit-border-radius: 22px;
+	        border-radius: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+

@@ -1,0 +1,35 @@
+
+.content.data-v-633373c2 {
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+.top1.data-v-633373c2,
+.top2.data-v-633373c2 {
+  background: #ffffff;
+}
+.top1 > view.data-v-633373c2,
+.top2 navigator.data-v-633373c2 {
+  padding: 32rpx 24rpx;
+  border-bottom: 1px solid #f2f2f2;
+}
+.top2 navigator.data-v-633373c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.btn.data-v-633373c2 {
+  margin: 136rpx 24rpx 0;
+  background: #fec200;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  text-align: center;
+  padding: 28rpx 0;
+  font-weight: bold;
+}
+

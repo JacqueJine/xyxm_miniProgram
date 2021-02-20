@@ -1,0 +1,106 @@
+
+.main.data-v-7480de4c {
+	padding: 0 24rpx;
+	background: #f9f9f9;
+	min-height: 100vh;
+}
+.topNav.data-v-7480de4c {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 50rpx 0 16rpx;
+	color: rgba(51, 51, 51, 0.4);
+	font-size: 24rpx;
+}
+.topNav view.data-v-7480de4c:last-child {
+	color: rgba(0, 145, 255, 1);
+}
+.classList.data-v-7480de4c {
+	width: 100%;
+	background: #fff;
+	-webkit-border-radius: 16rpx;
+	        border-radius: 16rpx;
+	margin-bottom: 16rpx;
+}
+.classItem.data-v-7480de4c {
+	padding: 36rpx 38rpx 36rpx 24rpx;
+	color: rgba(51, 51, 51, 1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1px solid rgba(249, 249, 249, 1);
+}
+.classList .classItem.data-v-7480de4c:last-child {
+	border-bottom: none;
+}
+.classIcon image.data-v-7480de4c {
+	width: 36rpx;
+	height: 36rpx;
+	margin-left: 40rpx;
+}
+.addBtn.data-v-7480de4c {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: rgba(162, 162, 162, 1);
+	font-size: 28rpx;
+}
+.addBtn view.data-v-7480de4c:first-child {
+	color: rgba(71, 175, 255, 1);
+	margin-right: 40rpx;
+}
+.btn.data-v-7480de4c {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 28rpx 0;
+	background: #fff;
+	-webkit-border-radius: 16rpx;
+	        border-radius: 16rpx;
+	font-size: 28rpx;
+	color: rgba(0, 145, 255, 1);
+}
+.showBox.data-v-7480de4c {
+	width: 560rpx;
+	padding: 60rpx 40rpx 0rpx;
+	text-align: center;
+	font-size: 32rpx;
+}
+.showBox input.data-v-7480de4c {
+	height: 116rpx;
+	line-height: 116rpx;
+	background: #ededed;
+	margin-bottom: 20rpx;
+}
+.title.data-v-7480de4c {
+	color: rgba(51, 51, 51, 1);
+	margin-bottom: 46rpx;
+}
+.boxBtn.data-v-7480de4c {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.boxBtn view.data-v-7480de4c {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding: 40rpx 0;
+	color: rgba(162, 162, 162, 1);
+}
+.boxBtn view.data-v-7480de4c:last-child {
+	color: rgba(71, 175, 255, 1);
+}
+

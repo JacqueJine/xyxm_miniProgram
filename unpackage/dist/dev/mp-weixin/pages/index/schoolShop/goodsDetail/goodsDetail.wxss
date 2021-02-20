@@ -1,0 +1,240 @@
+
+.content.data-v-5243ae50 {
+	background: #F9F9F9;
+	min-height: 100vh;
+	padding-bottom: 120rpx;
+}
+.top1 image.data-v-5243ae50 {
+	width: 100%;
+	height: 750rpx;
+}
+.top2.data-v-5243ae50 {
+	background: #FFFFFF;
+	padding: 32rpx 24rpx;
+}
+.top2>view.data-v-5243ae50:nth-of-type(1) {
+	font-size: 36rpx;
+	margin-bottom: 16rpx;
+}
+.top2>view.data-v-5243ae50:nth-of-type(2) {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 24rpx;
+}
+.top2>view:nth-of-type(2)>view:nth-of-type(1)>view.data-v-5243ae50:nth-of-type(2) {
+	margin-top: 16rpx;
+}
+.top2>view:nth-of-type(2)>view:nth-of-type(1)>view:nth-of-type(2) text.data-v-5243ae50 {
+	font-size: 20rpx;
+	color: #FF3939;
+	padding: 2rpx 16rpx;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	border: 1px solid #FF3939;
+	margin-right: 20rpx;
+}
+.top2>view:nth-of-type(2)>view.data-v-5243ae50:nth-of-type(2) {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.top2>view:nth-of-type(2)>view:nth-of-type(2) image.data-v-5243ae50 {
+	width: 64rpx;
+	height: 64rpx;
+}
+.top2>view:nth-of-type(2)>view:nth-of-type(2) text.data-v-5243ae50 {
+	margin: 0 24rpx;
+	font-size: 32rpx;
+}
+.top4.data-v-5243ae50 {
+	margin-top: 28rpx;
+	padding: 36rpx 24rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #FFFFFF;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.top4>view.data-v-5243ae50:nth-of-type(1) {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.top4 image.data-v-5243ae50 {
+	width: 72rpx;
+	height: 72rpx;
+	margin-right: 20rpx;
+}
+.top4>view.data-v-5243ae50:nth-of-type(2) {
+	-webkit-border-radius: 14px;
+	        border-radius: 14px;
+	border: 1px solid #979797;
+	padding: 6rpx 26rpx;
+	font-size: 24rpx;
+	font-weight: normal;
+}
+.top5.data-v-5243ae50 {
+	margin-top: 28rpx;
+	padding: 36rpx 24rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+	background: #FFFFFF;
+}
+.top5>view.data-v-5243ae50:nth-of-type(2) {
+	color: rgba(51, 51, 51, .8);
+	margin-top: 16rpx;
+	font-weight: normal;
+}
+
+/* 合计 */
+.top3.data-v-5243ae50 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 116rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	z-index: 200;
+}
+.top3 image.data-v-5243ae50 {
+	width: 68rpx;
+	height: 64rpx;
+	margin: 0 60rpx 0 36rpx;
+}
+.top3>view.data-v-5243ae50:nth-of-type(1) {
+	width: 496rpx;
+	background: #FEC200;
+	color: #191919;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.top3>view:nth-of-type(1)>view.data-v-5243ae50:nth-of-type(1) {
+	position: relative;
+}
+.top3>view:nth-of-type(1)>view:nth-of-type(1) text.data-v-5243ae50 {
+	position: absolute;
+	font-size: 24rpx;
+	color: #FFFFFF;
+	padding: 2rpx 10rpx;
+	background: #FF3939;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	top: -13rpx;
+	left: 75rpx;
+}
+.top3>view.data-v-5243ae50:nth-of-type(2) {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	background: #191919;
+	color: #FFFFFF;
+	line-height: 116rpx;
+	text-align: center;
+	font-size: 28rpx;
+	font-weight: bold;
+}
+.nonexd.data-v-5243ae50 {
+	color: #808080;
+}
+.top5img image.data-v-5243ae50 {
+	display: block;
+	width: 100%;
+}
+
+/* 购物车 */
+.shopCar.data-v-5243ae50 {
+	margin-bottom: 116rpx;
+	padding: 36rpx 24rpx;
+}
+.shopCar .title.data-v-5243ae50 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 28rpx;
+	margin-bottom: 20rpx;
+}
+.shopCar .carall.data-v-5243ae50 {
+	max-height: 620rpx;
+	overflow-y: scroll;
+}
+.shopCar .carlist.data-v-5243ae50 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-top: 28rpx;
+}
+.shopCar .head.data-v-5243ae50 {
+	width: 124rpx;
+	height: 124rpx;
+	margin-right: 24rpx;
+}
+.shopCar .carlist>view.data-v-5243ae50:nth-of-type(1) {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.shopCar .carlist>view:nth-of-type(1)>view:nth-of-type(1)>view.data-v-5243ae50:nth-of-type(2) {
+	color: #FF3939;
+	margin-top: 20rpx;
+	font-size: 28rpx;
+	font-weight: normal;
+}
+.shopCar .carlist>view.data-v-5243ae50:nth-of-type(2) {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.shopCar .carlist>view:nth-of-type(2) image.data-v-5243ae50 {
+	width: 52rpx;
+	height: 52rpx;
+}
+.shopCar .carlist>view:nth-of-type(2) text.data-v-5243ae50 {
+	font-size: 32rpx;
+	margin: 0 16rpx;
+}
+

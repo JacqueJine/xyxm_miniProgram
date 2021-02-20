@@ -1,0 +1,26 @@
+
+.content.data-v-332e04b2 {
+  padding: 52rpx 24rpx;
+  font-size: 28rpx;
+}
+textarea.data-v-332e04b2 {
+  background: #f9f9f9;
+  width: 100%;
+  padding: 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 36rpx;
+}
+.content > view:nth-of-type(2) > view.data-v-332e04b2:nth-of-type(1) {
+  color: rgba(24, 19, 0, 0.4);
+  margin-bottom: 20rpx;
+}
+.content > view.data-v-332e04b2:nth-of-type(3) {
+  line-height: 88rpx;
+  text-align: center;
+  background: #fec200;
+  -webkit-border-radius: 22px;
+          border-radius: 22px;
+  margin-top: 90rpx;
+}
+

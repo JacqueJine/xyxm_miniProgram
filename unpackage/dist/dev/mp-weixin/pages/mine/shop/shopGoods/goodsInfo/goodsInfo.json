@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品介绍",
+  "usingComponents": {
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "helang-compress": "/components/helang-compress/helang-compress"
+  }
+}

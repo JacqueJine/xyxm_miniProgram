@@ -1,0 +1,197 @@
+.per {
+    /* height: 420rpx; */
+    background: rgba(255, 255, 255, 1);
+    border-radius: 14px;
+    margin-top: 24rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 36rpx 28rpx;
+    border: 1px solid #F2F2F2;
+}
+
+.per-t {
+    height: 100rpx;
+    line-height: 100rpx;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.per-t .issuer1 {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.per-t .issuer1 .user {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 16rpx;
+    /* justify-content: space-around; */
+}
+
+.user .user-t {
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 24rpx;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-tt {
+    height: 60rpx;
+    line-height: 60rpx;
+    display: block;
+}
+
+.name {
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 28rpx;
+    color: #333333;
+    float: left;
+    /* font-weight: bold; */
+}
+
+.head {
+    position: relative;
+}
+
+.is_auth {
+    position: absolute;
+    bottom: 20rpx;
+    right: 0;
+    width: 32rpx;
+    height: 32rpx;
+    z-index: 10;
+}
+
+.per-t .imgInfo {
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 50%;
+}
+
+.xinyu {
+    color: #0091FF;
+    font-size: 20rpx;
+    padding: 0 6rpx;
+    border-radius: 2px;
+    background: #E5F4FF;
+    margin-left: 12rpx;
+}
+
+.per-t .gender {
+    height: 28rpx;
+    width: 28rpx;
+    margin-left: 12rpx;
+}
+
+.time {
+    color: rgba(36, 36, 36, 0.4);
+    margin-right: 10rpx;
+    font-size: 24rpx;
+}
+
+.location {
+    color: rgba(36, 36, 36, 0.4);
+    font-size: 24rpx;
+}
+
+.per-c {
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*    margin: 13rpx 0 10rpx; */
+}
+
+.per-c-b {
+    /* height: 170rpx; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* add */
+
+.per-c-l {
+    height: 100%;
+    width: 70%;
+    font-size: 36rpx;
+    color: #333333;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    /* overflow: hidden; */
+}
+
+
+/* 溢出隐藏 */
+
+.per-c-l view {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* width: 90%; */
+    max-width: 69%;
+    margin-right: 16rpx;
+}
+
+.per .per-c-l image {
+    height: 32rpx;
+    width: 56rpx;
+    position: relative;
+    /* top: 4rpx; */
+    box-sizing: border-box;
+}
+
+.per-c-r {
+    height: 100%;
+    width: 30%;
+    font-size: 40rpx;
+    color: #ff4d06;
+    text-align: right;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.per-c-b .per2 .t {
+    color: rgba(36, 36, 36, 0.4);
+    /* width: 130rpx; */
+    height: 40rpx;
+    line-height: 40rpx;
+    margin-right: 16rpx;
+    text-align: right;
+}
+
+.per-c-b .per2 {
+    /* height: 40rpx; */
+    line-height: 40rpx;
+    font-size: 24rpx;
+    color: rgba(36, 36, 36, 1);
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.per2 .c {
+    width: 500rpx;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

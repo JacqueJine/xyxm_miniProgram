@@ -1,0 +1,176 @@
+{
+  "pages": [
+    "pages/Tab/tabIndex/index",
+    "pages/task/task",
+    "pages/Tab/tabAddissue/addIssue",
+    "pages/Tab/tabMessage/message",
+    "components/perFunctionInfo/expressage/expressage",
+    "pages/task/taskList/taskList",
+    "pages/task/taskList/taskDetail/taskDetail",
+    "pages/Tab/tabComm/community",
+    "components/perFunctionInfo/invitation/invitation",
+    "components/perFunctionInfo/leaveMess/leaveMess",
+    "pages/Tab/tabMine/tabMine",
+    "pages/Tab/login/login"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/mine/",
+      "pages": [
+        "comInfo/mineMap/mineMap",
+        "mineSetting/mineSetting",
+        "mineSetting/address/address",
+        "mineSetting/setPass/setPass",
+        "mineSetting/setPass/findPass/findPass",
+        "mineSetting/setNickname/setNickname",
+        "mineSetting/address/addAddress/addAddress",
+        "mineHelp/mineHelp",
+        "mineHelp/lineHelp/lineHelp",
+        "mineHelp/sugges/sugges",
+        "mineHelp/creditPoints/creditPoints",
+        "mineHelp/officialAuth/officialAuth",
+        "shop/openShop/openShop",
+        "balance/balance",
+        "balance/withdraw/withdraw",
+        "balance/recharge/recharge",
+        "cooperation/cooperation",
+        "shop/collect/collect",
+        "IntegralMall/IntegralMall",
+        "IntegralMall/integralDetail/integralDetail",
+        "IntegralMall/credits/credits",
+        "IntegralMall/goodsDetail/goodsDetail",
+        "IntegralMall/confirmOrder/confirmOrder",
+        "IntegralMall/integralOrder/integralOrder",
+        "IntegralMall/integralOrder/orderDetail/orderDetail",
+        "shop/myshopOrder/myshopOrder",
+        "shop/myshopOrder/myorderDetail/myorderDetail",
+        "shop/shop",
+        "shop/shopSetting/shopSetting",
+        "shop/shopSetting/ggSetting/ggSetting",
+        "shop/shopSetting/psSetting/psSetting",
+        "shop/shopEarnings/shopEarnings",
+        "shop/financial/financial",
+        "shop/shopGoods/goodsList/goodsList",
+        "shop/shopGoods/goodsClass/goodsClass",
+        "shop/shopGoods/addGoods/addGoods",
+        "shop/shopGoods/goodsInfo/goodsInfo",
+        "comInfo/comInfo",
+        "shop/shopOrder/shopOrder",
+        "shop/shopOrder/shopDetail/shopDetail",
+        "havePublished/havePublished",
+        "acceptOrder/acceptOrder",
+        "havePublished/orderDetail/orderDetail",
+        "acceptOrder/orderDetail/orderDetail",
+        "taskOver/taskOver",
+        "mineIs_auth/mineIs_auth",
+        "mineIs_rider/mineIs_rider",
+        "transaction/transaction",
+        "comInfo/schoolList/schoolList",
+        "mineSetting/setSchool/setSchool"
+      ]
+    },
+    {
+      "root": "pages/addIssue/",
+      "pages": [
+        "expressageIssue/expressageIssue",
+        "otherIssue/otherIssue",
+        "issueOrder/issueOrder"
+      ]
+    },
+    {
+      "root": "pages/message/",
+      "pages": [
+        "messageTab/messageTab",
+        "messageDetail/messageDetail"
+      ]
+    },
+    {
+      "root": "pages/index/",
+      "pages": [
+        "schoolShop/schoolShop",
+        "schoolShop/goodsDetail/goodsDetail",
+        "schoolShop/goodsOrder/goodsOrder",
+        "schoolShop/goodsOrder/remark/remark",
+        "indexSearch/indexSearch",
+        "carouse/carouse"
+      ]
+    },
+    {
+      "root": "pages/community/",
+      "pages": [
+        "commDetail/commDetail",
+        "club/club",
+        "commSearch/commSearch",
+        "minePage/minePage",
+        "club/clubDetail/clubDetail",
+        "club/clubDetail/clubPersonal/clubPersonal",
+        "club/clubDetail/clubDetail1",
+        "club/clubDetail/clubSet/clubSet",
+        "addComm/addComm",
+        "club/addClub/addClub",
+        "searchClub/searchClub"
+      ]
+    }
+  ],
+  "window": {
+    "enablePullDownRefresh": false,
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#333",
+    "selectedColor": "#333",
+    "list": [
+      {
+        "pagePath": "pages/Tab/tabIndex/index",
+        "text": "首页",
+        "iconPath": "static/index/tab01.png",
+        "selectedIconPath": "static/index/tabselect01.png"
+      },
+      {
+        "pagePath": "pages/Tab/tabComm/community",
+        "text": "动态",
+        "iconPath": "static/index/tab02.png",
+        "selectedIconPath": "static/index/tabselect02.png"
+      },
+      {
+        "pagePath": "pages/Tab/tabAddissue/addIssue",
+        "text": "发布",
+        "iconPath": "static/index/tabselect05.png",
+        "selectedIconPath": "static/index/tabselect05.png"
+      },
+      {
+        "pagePath": "pages/Tab/tabMessage/message",
+        "text": "消息",
+        "iconPath": "static/index/tab06.png",
+        "selectedIconPath": "static/index/tabselect06.png"
+      },
+      {
+        "pagePath": "pages/Tab/tabMine/tabMine",
+        "text": "我的",
+        "iconPath": "static/index/tab04.png",
+        "selectedIconPath": "static/index/tabselect04.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {
+    "chooseLocation": {
+      "version": "1.0.5",
+      "provider": "wx76a9a06e5b4e693e"
+    },
+    "contactPlugin": {
+      "version": "1.3.1",
+      "provider": "wx104a1a20c3f81ec2"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

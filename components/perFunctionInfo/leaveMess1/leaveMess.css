@@ -1,0 +1,123 @@
+.leaveMess .top2_title {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20rpx;
+}
+
+.leaveMess .top2_title .head {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+
+.is_auth {
+    position: absolute;
+    bottom: 5rpx;
+    right: 20rpx;
+    width: 32rpx;
+    height: 32rpx;
+    z-index: 10;
+}
+
+.leaveMess .top2_title .logo {
+    width: 28rpx;
+    height: 28rpx;
+    margin-left: 12rpx;
+}
+
+.leaveMess .tag {
+    font-size: 20rpx;
+    padding: 0 6rpx;
+    background: #E5F4FF;
+    color: #0091FF;
+    margin-left: 18rpx;
+    border-radius: 2px;
+}
+
+.leaveMess .top2_title2 {
+    flex: 1;
+}
+
+.leaveMess .top2_title2>view:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 6rpx; */
+    font-size: 28rpx;
+}
+
+.leaveMess .top2_title2_2 {
+    display: flex;
+    align-items: center;
+}
+
+.leaveMess .top2_title2>view:nth-of-type(2) {
+    font-size: 24rpx;
+    color: rgba(36, 36, 36, .4);
+}
+
+.leaveMess .top2_list {
+    border-bottom: 1px solid #F8FAFB;
+    padding: 40rpx 0;
+    background: #FFFFFF;
+}
+
+.leaveMess .top2_con {
+    font-size: 32rpx;
+    padding-left: 100rpx;
+}
+
+.leaveMess .top2_con image {
+    border-radius: 4px;
+    width: 196rpx;
+    height: 196rpx;
+    margin: 20rpx 6rpx 0 0;
+}
+
+.leaveMess .top2_con image:nth-of-type(3n) {
+    margin: 20rpx 0 0 0;
+}
+
+.leaveMess .leaveMess_share {
+    padding-left: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leaveMess .leaveMess_share>view:nth-of-type(1) text {
+    display: inline-block;
+    width: 136rpx;
+    height: 48rpx;
+    background: #F0F1F2;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 48rpx;
+    color: rgba(36, 36, 36, .6);
+    font-size: 24rpx;
+}
+
+.leaveMess .top3_share {
+    padding-left: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20rpx;
+}
+
+.leaveMess .top3_share>view:nth-of-type(1) text {
+    display: inline-block;
+    width: 136rpx;
+    height: 48rpx;
+    background: #F0F1F2;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 48rpx;
+    color: rgba(36, 36, 36, .6);
+    font-size: 24rpx;
+}
+.leaveMess .top3_share>view:nth-of-type(2){
+	display: flex;
+	align-items: center;
+}

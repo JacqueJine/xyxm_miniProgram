@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "反馈建议",
+  "usingComponents": {
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload"
+  }
+}

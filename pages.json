@@ -1,0 +1,537 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Tab/tabIndex/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/task/task",
+			"style": {
+				"navigationBarTitleText": "任务大厅",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/Tab/tabAddissue/addIssue",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"navigationBarBackgroundColor": "#FCF5E3"
+			}
+		}, {
+			"path": "pages/Tab/tabMessage/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}, {
+			"path": "components/perFunctionInfo/expressage/expressage",
+			"style": {}
+		}, {
+			"path": "pages/task/taskList/taskList",
+			"style": {
+				"navigationBarBackgroundColor": "#FEC200",
+				"navigationBarTitleText": "任务列表"
+			}
+		}, {
+			"path": "pages/task/taskList/taskDetail/taskDetail",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		}, {
+			"path": "pages/Tab/tabComm/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "components/perFunctionInfo/invitation/invitation",
+			"style": {}
+		}, {
+			"path": "components/perFunctionInfo/leaveMess/leaveMess",
+			"style": {}
+		}, {
+			"path": "pages/Tab/tabMine/tabMine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/Tab/login/login",
+			"style": {
+				"navigationBarTitleText": "登录授权"
+			}
+		}
+	],
+	"subPackages": [
+		// 我的页面全部分包
+		{
+			"root": "pages/mine/",
+			"pages": [{
+				"path": "comInfo/mineMap/mineMap",
+				"style": {
+					"navigationBarTitleText": "选择学校"
+				}
+			}, {
+				"path": "mineSetting/mineSetting",
+				"style": {
+					"navigationBarTitleText": "个人设置"
+				}
+			}, {
+				"path": "mineSetting/address/address",
+				"style": {
+					"navigationBarTitleText": "我的地址"
+				}
+			}, {
+				"path": "mineSetting/setPass/setPass",
+				"style": {
+					"navigationBarTitleText": "支付密码"
+				}
+			}, {
+				"path": "mineSetting/setPass/findPass/findPass",
+				"style": {}
+			}, {
+				"path": "mineSetting/setNickname/setNickname",
+				"style": {
+					"navigationBarTitleText": "设置昵称"
+				}
+			}, {
+				"path": "mineSetting/address/addAddress/addAddress",
+				"style": {
+					"navigationBarTitleText": "添加或编辑地址"
+				}
+			}, {
+				"path": "mineHelp/mineHelp",
+				"style": {
+					"navigationBarTitleText": "联系帮助"
+				}
+			}, {
+				"path": "mineHelp/lineHelp/lineHelp",
+				"style": {
+					"navigationBarTitleText": "在线客服"
+				}
+			}, {
+				"path": "mineHelp/sugges/sugges",
+				"style": {
+					"navigationBarTitleText": "反馈建议"
+				}
+			}, {
+				"path": "mineHelp/creditPoints/creditPoints",
+				"style": {
+					"navigationBarTitleText": "信誉分"
+				}
+			}, {
+				"path": "mineHelp/officialAuth/officialAuth",
+				"style": {
+					"navigationBarTitleText": "官方认证"
+				}
+			}, {
+				"path": "shop/openShop/openShop",
+				"style": {
+					"navigationBarTitleText": "店铺加盟"
+				}
+			}, {
+				"path": "balance/balance",
+				"style": {
+					"navigationBarTitleText": "余额"
+				}
+			}, {
+				"path": "balance/withdraw/withdraw",
+				"style": {
+					"navigationBarTitleText": "提现"
+				}
+			}, {
+				"path": "balance/recharge/recharge",
+				"style": {
+					"navigationBarTitleText": "充值"
+				}
+			}, {
+				"path": "cooperation/cooperation",
+				"style": {
+					"navigationBarTitleText": "商务合作",
+					"mp-weixin": {
+						/* 在使用的页面中声明 */
+						"usingComponents": {
+							"cell": "plugin://contactPlugin/cell"
+						}
+					}
+				}
+			}, {
+				"path": "shop/collect/collect",
+				"style": {
+					"navigationBarTitleText": "我的收藏",
+					"navigationBarBackgroundColor": "#FEC200"
+				}
+			}, {
+				"path": "IntegralMall/IntegralMall",
+				"style": {
+					"navigationBarTitleText": "积分商城",
+					"navigationBarBackgroundColor": "#FEC200"
+				}
+			}, {
+				"path": "IntegralMall/integralDetail/integralDetail",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200"
+				}
+			}, {
+				"path": "IntegralMall/credits/credits",
+				"style": {
+					"navigationBarTitleText": "积分"
+				}
+			}, {
+				"path": "IntegralMall/goodsDetail/goodsDetail",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			}, {
+				"path": "IntegralMall/confirmOrder/confirmOrder",
+				"style": {
+					"navigationBarTitleText": "确认订单",
+					"navigationBarBackgroundColor": "#FEC200"
+				}
+			}, {
+				"path": "IntegralMall/integralOrder/integralOrder",
+				"style": {
+					"navigationBarTitleText": "积分订单",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "IntegralMall/integralOrder/orderDetail/orderDetail",
+				"style": {
+					"navigationBarTitleText": "订单详情"
+				}
+			}, {
+				"path": "shop/myshopOrder/myshopOrder",
+				"style": {
+					"navigationBarTitleText": "我的商城订单",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "shop/myshopOrder/myorderDetail/myorderDetail",
+				"style": {
+					"navigationBarTitleText": "订单详情"
+				}
+			}, {
+				"path": "shop/shop",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationBarBackgroundColor": "#FEC200"
+				}
+			}, {
+				"path": "shop/shopSetting/shopSetting",
+				"style": {
+					"navigationBarTitleText": "店铺管理"
+				}
+			}, {
+				"path": "shop/shopSetting/ggSetting/ggSetting",
+				"style": {}
+			}, {
+				"path": "shop/shopSetting/psSetting/psSetting",
+				"style": {
+					"navigationBarTitleText": "店铺配送费设置"
+				}
+			}, {
+				"path": "shop/shopEarnings/shopEarnings",
+				"style": {
+					"navigationBarTitleText": "店铺总收益"
+				}
+			}, {
+				"path": "shop/financial/financial",
+				"style": {
+					"navigationBarTitleText": "收款明细"
+				}
+			}, {
+				"path": "shop/shopGoods/goodsList/goodsList",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "shop/shopGoods/goodsClass/goodsClass",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": "添加分类"
+				}
+			}, {
+				"path": "shop/shopGoods/addGoods/addGoods",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "shop/shopGoods/goodsInfo/goodsInfo",
+				"style": {
+					"navigationBarTitleText": "商品介绍"
+				}
+			}, {
+				"path": "comInfo/comInfo",
+				"style": {
+					"navigationBarTitleText": "完善信息"
+				}
+			}, {
+				"path": "shop/shopOrder/shopOrder",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarTitleText": "店铺订单"
+				}
+			}, {
+				"path": "shop/shopOrder/shopDetail/shopDetail",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": "订单详情"
+				}
+			}, {
+				"path": "havePublished/havePublished",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": "我的发布"
+				}
+			}, {
+				"path": "acceptOrder/acceptOrder",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": "我的接单"
+				}
+			}, {
+				"path": "havePublished/orderDetail/orderDetail",
+				"style": {
+					"navigationBarTitleText": "发布详情"
+				}
+			}, {
+				"path": "acceptOrder/orderDetail/orderDetail",
+				"style": {
+					"navigationBarTitleText": "接单详情"
+				}
+			}, {
+				"path": "taskOver/taskOver",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "mineIs_auth/mineIs_auth",
+				"style": {
+					"navigationBarTitleText": "实名认证"
+				}
+			}, {
+				"path": "mineIs_rider/mineIs_rider",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": "骑手申请"
+				}
+			}, {
+				"path": "transaction/transaction",
+				"style": {
+					"navigationBarTitleText": "消费记录",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "comInfo/schoolList/schoolList",
+				"style": {
+					"navigationBarTitleText": "学校列表",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "mineSetting/setSchool/setSchool",
+				"style": {
+					"navigationBarTitleText": "申请修改学校",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		},
+		// 发布
+		{
+			"root": "pages/addIssue/",
+			"pages": [{
+				"path": "expressageIssue/expressageIssue",
+				"style": {
+					"navigationBarTitleText": "快递帮发布"
+				}
+			}, {
+				"path": "otherIssue/otherIssue",
+				"style": {}
+			}, {
+				"path": "issueOrder/issueOrder",
+				"style": {
+					"navigationBarTitleText": "任务订单"
+				}
+			}]
+		},
+		// 消息
+		{
+			"root": "pages/message/",
+			"pages": [{
+				"path": "messageTab/messageTab",
+				"style": {
+					"navigationBarTitleText": "详情"
+				}
+			}, {
+				"path": "messageDetail/messageDetail",
+				"style": {
+					"navigationBarTitleText": "通知详情"
+				}
+			}]
+		},
+		// index
+		{
+			"root": "pages/index/",
+			"pages": [{
+				"path": "schoolShop/schoolShop",
+				"style": {
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "schoolShop/goodsDetail/goodsDetail",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			}, {
+				"path": "schoolShop/goodsOrder/goodsOrder",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": "确认订单"
+				}
+			}, {
+				"path": "schoolShop/goodsOrder/remark/remark",
+				"style": {
+					"navigationBarTitleText": ""
+				}
+			}, {
+				"path": "indexSearch/indexSearch",
+				"style": {
+					"navigationBarTitleText": "店铺",
+					"navigationStyle": "custom"
+				}
+			}, {
+				"path": "carouse/carouse",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}]
+		},
+		// 社区
+		{
+			"root": "pages/community/",
+			"pages": [{
+				"path": "commDetail/commDetail",
+				"style": {
+					"navigationBarTitleText": "帖子详情",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "club/club",
+				"style": {
+					"navigationBarTitleText": "社团",
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "commSearch/commSearch",
+				"style": {
+					"navigationBarTitleText": "搜索",
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "minePage/minePage",
+				"style": {
+					"navigationBarBackgroundColor": "#FEC200",
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true
+				}
+			}, {
+				"path": "club/clubDetail/clubDetail",
+				"style": {
+					"navigationBarTitleText": "社团"
+				}
+			}, {
+				"path": "club/clubDetail/clubPersonal/clubPersonal",
+				"style": {
+					"navigationBarTitleText": "社团成员"
+				}
+			}, {
+				"path": "club/clubDetail/clubDetail1",
+				"style": {
+					"navigationBarTitleText": "社团"
+				}
+			}, {
+				"path": "club/clubDetail/clubSet/clubSet",
+				"style": {}
+			}, {
+				"path": "addComm/addComm",
+				"style": {
+					"navigationBarTitleText": "发帖"
+				}
+			}, {
+				"path": "club/addClub/addClub",
+				"style": {
+					"navigationBarTitleText": "创建社团"
+				}
+			}, {
+				"path": "searchClub/searchClub",
+				"style": {
+					"navigationBarTitleText": "社团搜索",
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": true
+				}
+
+			}]
+		}
+	],
+	// manifest里面设置的
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"color": "#333",
+		"selectedColor": "#333",
+		"list": [{
+				"pagePath": "pages/Tab/tabIndex/index",
+				"text": "首页",
+				"iconPath": "static/index/tab01.png",
+				"selectedIconPath": "static/index/tabselect01.png"
+			},
+			{
+				"pagePath": "pages/Tab/tabComm/community",
+				"text": "动态",
+				"iconPath": "static/index/tab02.png",
+				"selectedIconPath": "static/index/tabselect02.png"
+			},
+			{
+				"pagePath": "pages/Tab/tabAddissue/addIssue",
+				"text": "发布",
+				"iconPath": "static/index/tabselect05.png",
+				"selectedIconPath": "static/index/tabselect05.png"
+			},
+			{
+				"pagePath": "pages/Tab/tabMessage/message",
+				"text": "消息",
+				"iconPath": "static/index/tab06.png",
+				"selectedIconPath": "static/index/tabselect06.png"
+			},
+			{
+				"pagePath": "pages/Tab/tabMine/tabMine",
+				"text": "我的",
+				"iconPath": "static/index/tab04.png",
+				"selectedIconPath": "static/index/tabselect04.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"enablePullDownRefresh": false,
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}

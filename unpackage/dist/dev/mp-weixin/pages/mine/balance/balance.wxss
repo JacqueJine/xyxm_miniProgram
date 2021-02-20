@@ -1,0 +1,111 @@
+
+.balance.data-v-775c3e66 {
+	padding: 0 40rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 32rpx;
+}
+.balance .align.data-v-775c3e66 {
+	text-align: center;
+	font-weight: bold;
+}
+.balance .align.data-v-775c3e66:nth-of-type(1) {
+	font-size: 100rpx;
+	margin: 120rpx 0 24rpx;
+}
+.balance .align.data-v-775c3e66:nth-of-type(2) {
+	font-size: 28rpx;
+	color: rgba(36, 36, 36, 0.4);
+	font-weight: normal;
+}
+.top1.data-v-775c3e66 {
+	text-align: center;
+	font-size: 24rpx;
+}
+.balance .btn.data-v-775c3e66 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 56rpx 0;
+}
+.balance .btn view.data-v-775c3e66 {
+	width: 314rpx;
+	height: 100rpx;
+	font-weight: bold;
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.content image.data-v-775c3e66 {
+	width: 40rpx;
+	height: 40rpx;
+}
+.content ._li.data-v-775c3e66 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 22rpx 0;
+	border-bottom: 2rpx solid rgba(151, 151, 151, 0.2);
+}
+.content ._li.data-v-775c3e66:last-of-type {
+	border-bottom: none;
+}
+.content ._li.data-v-775c3e66 {
+	font-size: 24rpx;
+}
+.content ._li .name.data-v-775c3e66 {
+	font-size: 28rpx;
+	font-weight: bold;
+}
+.content ._li > view:nth-of-type(2) view.data-v-775c3e66 {
+	line-height: 40rpx;
+}
+.content ._li .add.data-v-775c3e66 {
+	font-size: 40rpx;
+	color: #333333;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-weight: bold;
+}
+.content ._li .subtract.data-v-775c3e66 {
+	font-size: 40rpx;
+	color: #ff5151;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-weight: bold;
+}
+
+/* 规则 */
+.top4.data-v-775c3e66 {
+	color: rgba(36, 36, 36, 0.4);
+	font-size: 24rpx;
+}
+.top4 > view.data-v-775c3e66 {
+	margin-top: 22rpx;
+}
+.top4 > view.data-v-775c3e66:nth-of-type(1) {
+	text-align: center;
+	font-size: 28rpx;
+	margin-bottom: 18rpx;
+	color: rgba(36, 36, 36, 1);
+}
+

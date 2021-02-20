@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#FEC200",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "u-field": "/node-modules/uview-ui/components/u-field/u-field",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "helang-compress": "/components/helang-compress/helang-compress"
+  }
+}

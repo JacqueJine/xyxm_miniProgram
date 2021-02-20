@@ -1,0 +1,94 @@
+
+.content.data-v-d01706b8 {
+	padding: 0 24rpx;
+	font-size: 28rpx;
+}
+.title.data-v-d01706b8 {
+	font-weight: bold;
+	margin-top: 52rpx;
+}
+.top1 .list.data-v-d01706b8,
+.list2.data-v-d01706b8 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 30rpx 40rpx;
+	background: #F9F9F9;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	margin-top: 28rpx;
+}
+.top1 .list image.data-v-d01706b8 {
+	width: 48rpx;
+	height: 48rpx;
+	margin-right: 20rpx;
+}
+.top2 .list.data-v-d01706b8 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.top1 .list>view.data-v-d01706b8,
+.list2>view.data-v-d01706b8 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.top2 .list>view.data-v-d01706b8 {
+	padding: 40rpx 0 40rpx 40rpx;
+	margin-top: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background: #F9F9F9;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 342rpx;
+	height: 148rpx;
+}
+.top2 .list image.data-v-d01706b8 {
+	width: 68rpx;
+	height: 68rpx;
+	margin-right: 24rpx;
+}
+.list2 image.data-v-d01706b8 {
+	width: 68rpx;
+	height: 68rpx;
+	margin-right: 24rpx;
+}
+.list3.data-v-d01706b8 {
+	padding: 30rpx 40rpx;
+	background: #F9F9F9;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	margin-top: 28rpx;
+}
+.data-v-d01706b8 .cell--nickname{
+	font-weight: normal;
+	font-size: 28rpx;
+}
+.data-v-d01706b8 .cell--service_with_avator {
+    width: 68rpx;
+    height: 68rpx;
+}
+

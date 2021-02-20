@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "社区",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-read-more": "/node-modules/uview-ui/components/u-read-more/u-read-more",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "popup": "/components/popup/popup"
+  }
+}

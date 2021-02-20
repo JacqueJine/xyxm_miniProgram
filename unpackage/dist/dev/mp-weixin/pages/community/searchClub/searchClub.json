@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "社团搜索",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

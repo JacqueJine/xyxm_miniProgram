@@ -1,0 +1,96 @@
+
+.content.data-v-707674a9 {
+  padding: 0 24rpx 36rpx;
+  font-size: 28rpx !important;
+}
+.top1_1.data-v-707674a9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 40rpx;
+}
+.top1_1 image.data-v-707674a9 {
+  width: 136rpx;
+  height: 136rpx;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  margin: 120rpx 0 12rpx 0;
+}
+.top1_2.data-v-707674a9 {
+  padding-top: 52rpx;
+}
+.top1_2 input.data-v-707674a9 {
+  height: 86rpx;
+  line-height: 86rpx;
+  border: none;
+  background: #f9f9f9;
+  margin-top: 24rpx;
+  padding-left: 24rpx;
+}
+.top1_3.data-v-707674a9 {
+  padding-top: 120rpx;
+}
+.top1_3 .btn.data-v-707674a9 {
+  line-height: 98rpx;
+  text-align: center;
+  background: #fec200;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  font-size: 36rpx;
+  margin-top: 40rpx;
+}
+.top1_3 > view.data-v-707674a9:nth-of-type(1) {
+  font-size: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.top1_3 > view:nth-of-type(1) text.data-v-707674a9 {
+  color: #1677ff;
+}
+.top2.data-v-707674a9 {
+  width: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 36rpx;
+}
+.top2 image.data-v-707674a9 {
+  width: 148rpx;
+  height: 148rpx;
+  margin-bottom: 50rpx;
+}
+.top2 > view.data-v-707674a9:nth-of-type(2) {
+  color: rgba(42, 40, 40, 0.4);
+  font-size: 28rpx;
+}
+.popxy.data-v-707674a9 {
+  width: 600rpx;
+  height: 700rpx;
+  overflow-y: scroll;
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+

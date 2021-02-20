@@ -1,0 +1,25 @@
+
+.search.data-v-72e0c980 {
+	padding: 24rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #ffffff;
+	z-index: 10;
+}
+.top1.data-v-72e0c980 {
+	padding-top: 112rpx;
+}
+.top2.data-v-72e0c980 {
+	padding: 24rpx;
+}
+.submit.data-v-72e0c980 {
+	text-align: center;
+	margin: 24rpx;
+	background: #fec200;
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+	padding: 28rpx 0;
+}
+

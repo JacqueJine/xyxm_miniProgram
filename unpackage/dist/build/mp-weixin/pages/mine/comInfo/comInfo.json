@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "完善信息",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse"
+  }
+}

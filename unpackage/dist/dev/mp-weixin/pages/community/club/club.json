@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "社团",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-read-more": "/node-modules/uview-ui/components/u-read-more/u-read-more",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "helang-compress": "/components/helang-compress/helang-compress"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "添加或编辑地址",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch",
+    "simple-address": "/node-modules/simple-address/simple-address"
+  }
+}

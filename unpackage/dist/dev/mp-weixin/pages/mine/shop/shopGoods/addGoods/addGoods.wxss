@@ -1,0 +1,106 @@
+
+.main.data-v-0bdf6afa {
+  min-height: 100vh;
+  background: #f2f2f2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16rpx 24rpx 108rpx;
+}
+.title.data-v-0bdf6afa {
+  font-size: 24rpx;
+  color: rgba(51, 51, 51, 0.4);
+  margin-bottom: 16rpx;
+  padding-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.inputGroup.data-v-0bdf6afa {
+  background: #fff;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+  margin-bottom: 16rpx;
+  overflow: hidden !important;
+}
+.add.data-v-0bdf6afa {
+  color: rgba(22, 119, 255, 1);
+}
+.last.data-v-0bdf6afa {
+  padding: 32rpx;
+  font-size: 24rpx;
+}
+.lastBtn.data-v-0bdf6afa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin: 60rpx 0;
+}
+.foot.data-v-0bdf6afa {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 98rpx;
+  background: #fff;
+  -webkit-box-shadow: 0px -1px 0px 0px rgba(196, 196, 196, 0.5);
+          box-shadow: 0px -1px 0px 0px rgba(196, 196, 196, 0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: rgba(0, 145, 255, 1);
+  font-size: 28rpx;
+  z-index: 999;
+}
+.foot view.data-v-0bdf6afa {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.foot view.data-v-0bdf6afa:first-child {
+  color: rgba(121, 121, 121, 1);
+  border-right: 1px solid #f3f3f3;
+}
+#red.data-v-0bdf6afa {
+  color: #ff3939;
+}
+.classList.data-v-0bdf6afa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.classItem.data-v-0bdf6afa {
+  font-size: 24rpx;
+  padding: 0 13rpx;
+  height: 54rpx;
+  line-height: 54rpx;
+  background: #fff;
+  margin: 0 16rpx 16rpx 0;
+  border: 2rpx solid #fff;
+  -webkit-border-radius: 2rpx;
+          border-radius: 2rpx;
+}
+.actClass.data-v-0bdf6afa {
+  color: #1677ff;
+  border: 2rpx solid #0091ff;
+}
+

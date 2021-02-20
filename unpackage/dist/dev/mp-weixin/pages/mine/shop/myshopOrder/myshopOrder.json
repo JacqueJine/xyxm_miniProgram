@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的商城订单",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

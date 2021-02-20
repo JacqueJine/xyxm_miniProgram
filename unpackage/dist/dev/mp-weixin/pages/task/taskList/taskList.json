@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#FEC200",
+  "navigationBarTitleText": "任务列表",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "expressage": "/components/perFunctionInfo/expressage/expressage"
+  }
+}

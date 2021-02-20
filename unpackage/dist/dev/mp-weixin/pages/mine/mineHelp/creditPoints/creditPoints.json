@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "信誉分",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#FEC200",
+  "navigationBarTitleText": "我的发布",
+  "usingComponents": {
+    "u-badge": "/node-modules/uview-ui/components/u-badge/u-badge",
+    "u-count-down": "/node-modules/uview-ui/components/u-count-down/u-count-down",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}
